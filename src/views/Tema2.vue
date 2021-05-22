@@ -17,9 +17,10 @@
     p.mb-5 Establece que una columna tenga un valor Not Null. Se define efectuando la declaración de una columna es Not null cuando la tabla que contiene las columnas se crea por primera vez, como parte de la sentencia Create table.
 
     h4.mb-4.text-center Configuración propiedad NOT NULL
-    .row.mb-5
-      figure
-        img(src="@/assets/curso/tema2/img2.svg", alt="Configuración propiedad NOT NULL")
+    .row.mb-5.justify-content-center
+      .col-lg-10 
+        figure
+          img(src="@/assets/curso/tema2/img2.svg", alt="Configuración propiedad NOT NULL")
 
     #t_2_2.titulo-segundo
       .h4 2.2 Chequeo de validez
@@ -37,9 +38,10 @@
     
     h4.mb-4.text-center Configuración tipos de datos
 
-    .row.mb-5
-      figure
-        img(src="@/assets/curso/tema2/img4.svg", alt="Configuración tipos de datos")
+    .row.mb-5.justify-content-center
+      .col-lg-10 
+        figure
+          img(src="@/assets/curso/tema2/img4.svg", alt="Configuración tipos de datos")
 
 
 
@@ -50,24 +52,27 @@
 
     h4.mb-4.text-center Configuración de la llave primaria
 
-    .row.mb-5
-      figure
-        img(src="@/assets/curso/tema2/img5.svg", alt="Configuración de la llave primaria")
+    .row.mb-5.justify-content-center
+      .col-lg-10 
+        figure
+          img(src="@/assets/curso/tema2/img5.svg", alt="Configuración de la llave primaria")
 
     p.mb-4 Este tipo de prueba lo que debe garantizar es que no se repitan varios registros o tuplas con un mismo identificador, de ahí el concepto que la llave primaria debe ser un valor único.
     p.mb-4 #[strong Ejemplo:] en la tabla producto se realizó la inserción de un nuevo producto llamado computador portátil el cual quedó registrado con el idProducto= 1 tal como se evidencia en la siguiente imagen.
 
     h4.mb-4.text-center Inserción del primer registro I
-    .row.mb-5
-      figure
-        img(src="@/assets/curso/tema2/img6.svg", alt="Inserción del primer registro I")
+    .row.mb-5.justify-content-center
+      .col-lg-10 
+        figure
+          img(src="@/assets/curso/tema2/img6.svg", alt="Inserción del primer registro I")
 
     p.mb-4 Ahora, el tipo de prueba que se debe de hacer es insertar un nuevo registro de otro producto y tratar de utilizar el mismo identificador lo cual genera un error tal como se evidencia en la siguiente figura.
 
     h4.mb-4.text-center Inserción del primer registro II
-    .row.mb-5
-      figure
-        img(src="@/assets/curso/tema2/img7.svg", alt="Inserción del primer registro II")
+    .row.mb-5.justify-content-center
+      .col-lg-10 
+        figure
+          img(src="@/assets/curso/tema2/img7.svg", alt="Inserción del primer registro II")
 
 
 
