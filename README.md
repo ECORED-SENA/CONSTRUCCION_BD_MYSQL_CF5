@@ -1,4 +1,4 @@
-# **Nombre del componente formativo	Pruebas de validación de bases de datos MySQL**
+# **Pruebas de validación de bases de datos MySQL**
 
 ## **Enlace GitHubPages**
 
