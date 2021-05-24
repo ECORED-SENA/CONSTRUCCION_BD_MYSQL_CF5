@@ -27,10 +27,10 @@
 
     p.mb-4 Cuando se crea una tabla, cada columna tiene un tipo de datos y el DBMS asegura que solamente los datos del tipo especificado sean ingresados en la tabla.
 
-    .row.mb-4.justify-content-center.p-4
+    .row.mb-4.justify-content-center.p-5
       .col-lg-2
         figure.mb-3
-          img(src="@/assets/curso/tema2/img3.svg", alt="Chequeo de validez")
+          img(src="@/assets/curso/tema2/img3.svg", alt="Chequeo de validez",style="width:100px;")
       .col-lg-10.align-self-center
         p.mb-4 El tipo de dato seleccionado en el diseño es de suma importancia ya que este define los datos que serán recibidos y almacenados; esto determina la capacidad, el tamaño y las restricciones al momento de realizar las operaciones de Insert, Update.
     
@@ -81,28 +81,29 @@
     #t_2_4.titulo-segundo
       .h4 2.4	Integridad referencial
 
-    p.mb-4 Esta asegura la integridad entre las llaves foráneas y primarias (relaciones padres/hijo). Existen cuatro actualizaciones de la base de datos que pueden comprometer la integridad referencial:
+    p.mb-5- Esta asegura la integridad entre las llaves foráneas y primarias (relaciones padres/hijo). Existen cuatro actualizaciones de la base de datos que pueden comprometer la integridad referencial:
 
-    .row.mb-4.align-items-center
-      .col-lg-2
+    .row.mb-5.align-items-center.justify-content-center.p-5
+      .col-auto
         figure
-          img(src="@/assets/curso/tema2/img8.svg", alt="Integridad referencial")
+          img(src="@/assets/curso/tema2/img8.svg", alt="Integridad referencial", style="width:90px;")
       .col-lg-10
-        ul.lista-ul
-          li 
-            i.fas.fa-check
-            | La inserción de una fila hijo se produce cuando no coincide la llave foránea con la llave primaria del padre.
-          li 
-            i.fas.fa-check
-            | La actualización en la llave foránea de la fila hijo, donde se produce una actualización en la clave ajena de la fila hijo con una sentencia Update y la misma no coincide con ninguna llave primaria.
-          li 
-            i.fas.fa-check
-            | La supresión de una fila padre, con la que, si una fila padre –que tiene uno o más hijos– se suprime, las filas hijos quedarán huérfanas.
-          li 
-            i.fas.fa-check
-            | La actualización de la llave primaria de una fila padre, donde si en una fila padre, que tiene uno o más hijos se actualiza su llave primaria, las filas hijos quedarán huérfanas.
 
-    p.mb-4 El concepto de la integridad referencial y como se puede ver afectada se puede evidenciar en la siguiente figura.
+          ul.lista-ul
+            li 
+              i.fas.fa-check
+              | La inserción de una fila hijo se produce cuando no coincide la llave foránea con la llave primaria del padre.
+            li 
+              i.fas.fa-check
+              | La actualización en la llave foránea de la fila hijo, donde se produce una actualización en la clave ajena de la fila hijo con una sentencia Update y la misma no coincide con ninguna llave primaria.
+            li 
+              i.fas.fa-check
+              | La supresión de una fila padre, con la que, si una fila padre –que tiene uno o más hijos– se suprime, las filas hijos quedarán huérfanas.
+            li 
+              i.fas.fa-check
+              | La actualización de la llave primaria de una fila padre, donde si en una fila padre, que tiene uno o más hijos se actualiza su llave primaria, las filas hijos quedarán huérfanas.
+
+    p.mb-5 El concepto de la integridad referencial y como se puede ver afectada se puede evidenciar en la siguiente figura.
     
     h4.mb-5.text-center Pérdida de la integridad de los datos
     .row.mb-5.justify-content-center
