@@ -108,24 +108,38 @@ export default {
     },
     contenidoInstruccional: [
       {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
         nombre: 'Henry Eduardo Bastidas Paruma',
-        cargo: 'Instructor',
+        cargo: 'Experto temático Instructor',
         centro: 'Centro de Teleinformática y Producción Industria',
         regional: 'Regional Cauca',
+      },
+      {
+        nombre: 'Tania Yaneth Ramírez Benítez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
       },
       {
         nombre: 'Gloria Esperanza Ortiz Russi',
         cargo: 'Diseñadora y evaluadora instruccional',
         centro: 'Centro de Diseño y Metrología',
+        regional: 'Distrito Capital',
       },
       {
         nombre: 'Martha Isabel Martínez Vargas',
-        cargo: 'Productora audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
+        regional: 'Distrito Capital',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Corrector de estilo',
+        cargo: 'Revisión metodológica y pedagógica',
         centro: 'Centro para la Industria de la Comunicación Gráfica.',
         regional: 'Distrito Capital',
       },
@@ -134,28 +148,42 @@ export default {
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
+        centro: 'Centro Industrial del Diseño y la Manufactura ',
+        regional: 'Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
+        centro: 'Centro Industrial del Diseño y la Manufactura ',
+        regional: 'Regional Santander',
       },
       {
-        nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
+        nombre: [
+          'Carlos Julián Ramírez Benítez',
+          'Daniel Ricardo Mutis Gómez',
+          'Zuleidy María Ruiz Torres',
+        ],
         cargo: 'Diseño web y Producción Audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura ',
+        regional: 'Regional Santander',
       },
       {
-        nombre: 'John Andres Ayala',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'John Andres Ayala Angarita',
+        cargo: 'Desarrollo front-end',
+        centro: 'Centro Industrial del Diseño y la Manufactura ',
+        regional: 'Regional Santander',
       },
       {
-        centro: 'Centro Industrial del Diseño y la Manufactura',
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisora de contenidos',
+        centro: 'Centro Industrial del Diseño y la Manufactura ',
         regional: 'Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
@@ -175,8 +203,8 @@ export default {
         'MySQL AB. (2001). MySQL. Sun Microsystems Oracle Corporation.',
     },
     {
-      referencia:
-        'Pérez, D. (2010). Bases de datos línea. https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf',
+      referencia: 'Pérez, D. (2010). Bases de datos línea.',
+      link: 'https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf',
     },
   ],
   glosario: [

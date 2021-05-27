@@ -8,15 +8,17 @@
         .h3 2
       .h3 Tipos de restricciones de integridad
 
-    figure.mb-5
-      img(src="@/assets/curso/tema2/img1.svg", alt="Tipos de restricciones")
+    .row.justify-content-center.mb-4
+      .col-lg-9
+        figure.mb-5.mt-5
+          img(src="@/assets/curso/tema2/img1.svg", alt="Tipos de restricciones")
 
     #t_2_1.titulo-segundo
       .h4 2.1 Datos requeridos
     
     p.mb-5 Establece que una columna tenga un valor Not Null. Se define efectuando la declaración de una columna es Not null cuando la tabla que contiene las columnas se crea por primera vez, como parte de la sentencia Create table.
 
-    h4.mb-4.text-center Configuración propiedad NOT NULL
+    .h5.mb-4.text-center Configuración propiedad NOT NULL
     .row.mb-5.justify-content-center
       .col-lg-10 
         figure
@@ -28,15 +30,15 @@
     p.mb-4 Cuando se crea una tabla, cada columna tiene un tipo de datos y el DBMS asegura que solamente los datos del tipo especificado sean ingresados en la tabla.
 
     .row.mb-4.justify-content-center.p-5
-      .col-lg-2
+      .col-lg-3.align-self-center
         figure.mb-3
-          img(src="@/assets/curso/tema2/img3.svg", alt="Chequeo de validez",style="width:100px;")
-      .col-lg-10.align-self-center
+          img(src="@/assets/curso/tema2/img3.svg", alt="Chequeo de validez",style="width:150px; margin-left: 34px;")
+      .col-lg-9.align-self-center
         p.mb-4 El tipo de dato seleccionado en el diseño es de suma importancia ya que este define los datos que serán recibidos y almacenados; esto determina la capacidad, el tamaño y las restricciones al momento de realizar las operaciones de Insert, Update.
     
     p.mb-4 #[strong Ejemplo:] para la tabla Producto, se define un atributo llamado stock el cual define un campo de tipo entero, esto significa que, al momento de insertar algún registro, no se permitirá ingresar valores decimales como 25,5 computadores ya que se generaría un error en su validez.
     
-    h4.mb-4.text-center Configuración tipos de datos
+    .h5.mb-4.text-center Configuración tipos de datos
 
     .row.mb-5.justify-content-center
       .col-lg-10 
@@ -50,7 +52,7 @@
 
     p.mb-4 Aquí se establece que la clave primaria de una tabla debe tener un valor único para cada fila de la tabla; si no, la base de datos perderá su integridad; y se especifica en la sentencia Create table. El DBMS comprueba automáticamente la unicidad del valor de la clave primaria con cada sentencia Insert y Update. Un intento de insertar o actualizar una fila con un valor de la clave primaria ya existente fallará.
 
-    h4.mb-4.text-center Configuración de la llave primaria
+    .h5.mb-4.text-center Configuración de la llave primaria
 
     .row.mb-5.justify-content-center
       .col-lg-10 
@@ -60,7 +62,7 @@
     p.mb-4 Este tipo de prueba lo que debe garantizar es que no se repitan varios registros o tuplas con un mismo identificador, de ahí el concepto que la llave primaria debe ser un valor único.
     p.mb-4 #[strong Ejemplo:] en la tabla producto se realizó la inserción de un nuevo producto llamado computador portátil el cual quedó registrado con el idProducto= 1 tal como se evidencia en la siguiente imagen.
 
-    h4.mb-4.text-center Inserción del primer registro I
+    .h5.mb-4.text-center Inserción del primer registro I
     .row.mb-5.justify-content-center
       .col-lg-10 
         figure
@@ -68,15 +70,11 @@
 
     p.mb-4 Ahora, el tipo de prueba que se debe de hacer es insertar un nuevo registro de otro producto y tratar de utilizar el mismo identificador lo cual genera un error tal como se evidencia en la siguiente figura.
 
-    h4.mb-4.text-center Inserción del primer registro II
-    .row.mb-5.justify-content-center
+    .h5.mb-4.text-center Inserción del primer registro II
+    .row.justify-content-center(style="margin-bottom: 200px;")
       .col-lg-10 
         figure
           img(src="@/assets/curso/tema2/img7.svg", alt="Inserción del primer registro II")
-
-
-
-
 
     #t_2_4.titulo-segundo
       .h4 2.4	Integridad referencial
@@ -84,10 +82,10 @@
     p.mb-5- Esta asegura la integridad entre las llaves foráneas y primarias (relaciones padres/hijo). Existen cuatro actualizaciones de la base de datos que pueden comprometer la integridad referencial:
 
     .row.mb-5.align-items-center.justify-content-center.p-5
-      .col-auto
+      .col-lg-3
         figure
-          img(src="@/assets/curso/tema2/img8.svg", alt="Integridad referencial", style="width:90px;")
-      .col-lg-10
+          img(src="@/assets/curso/tema2/img8.svg", alt="Integridad referencial", style="width:120px; margin-left: 50px;")
+      .col-lg-9
 
           ul.lista-ul
             li 
@@ -105,7 +103,7 @@
 
     p.mb-5 El concepto de la integridad referencial y como se puede ver afectada se puede evidenciar en la siguiente figura.
     
-    h4.mb-5.text-center Pérdida de la integridad de los datos
+    .h5.mb-5.text-center Pérdida de la integridad de los datos
     .row.mb-5.justify-content-center
       .col-lg-6
         figure
