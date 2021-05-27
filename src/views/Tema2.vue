@@ -18,7 +18,7 @@
     
     p.mb-5 Establece que una columna tenga un valor Not Null. Se define efectuando la declaración de una columna es Not null cuando la tabla que contiene las columnas se crea por primera vez, como parte de la sentencia Create table.
 
-    .h5.mb-4.text-center Configuración propiedad NOT NULL
+    .h6.mb-4.text-center Configuración propiedad NOT NULL
     .row.mb-5.justify-content-center
       .col-lg-10 
         figure
@@ -38,7 +38,7 @@
     
     p.mb-4 #[strong Ejemplo:] para la tabla Producto, se define un atributo llamado stock el cual define un campo de tipo entero, esto significa que, al momento de insertar algún registro, no se permitirá ingresar valores decimales como 25,5 computadores ya que se generaría un error en su validez.
     
-    .h5.mb-4.text-center Configuración tipos de datos
+    .h6.mb-4.text-center Configuración tipos de datos
 
     .row.mb-5.justify-content-center
       .col-lg-10 
@@ -52,7 +52,7 @@
 
     p.mb-4 Aquí se establece que la clave primaria de una tabla debe tener un valor único para cada fila de la tabla; si no, la base de datos perderá su integridad; y se especifica en la sentencia Create table. El DBMS comprueba automáticamente la unicidad del valor de la clave primaria con cada sentencia Insert y Update. Un intento de insertar o actualizar una fila con un valor de la clave primaria ya existente fallará.
 
-    .h5.mb-4.text-center Configuración de la llave primaria
+    .h6.mb-4.text-center Configuración de la llave primaria
 
     .row.mb-5.justify-content-center
       .col-lg-10 
@@ -62,7 +62,7 @@
     p.mb-4 Este tipo de prueba lo que debe garantizar es que no se repitan varios registros o tuplas con un mismo identificador, de ahí el concepto que la llave primaria debe ser un valor único.
     p.mb-4 #[strong Ejemplo:] en la tabla producto se realizó la inserción de un nuevo producto llamado computador portátil el cual quedó registrado con el idProducto= 1 tal como se evidencia en la siguiente imagen.
 
-    .h5.mb-4.text-center Inserción del primer registro I
+    .h6.mb-4.text-center Inserción del primer registro I
     .row.mb-5.justify-content-center
       .col-lg-10 
         figure
@@ -70,7 +70,7 @@
 
     p.mb-4 Ahora, el tipo de prueba que se debe de hacer es insertar un nuevo registro de otro producto y tratar de utilizar el mismo identificador lo cual genera un error tal como se evidencia en la siguiente figura.
 
-    .h5.mb-4.text-center Inserción del primer registro II
+    .h6.mb-4.text-center Inserción del primer registro II
     .row.justify-content-center(style="margin-bottom: 200px;")
       .col-lg-10 
         figure
@@ -103,7 +103,7 @@
 
     p.mb-5 El concepto de la integridad referencial y como se puede ver afectada se puede evidenciar en la siguiente figura.
     
-    .h5.mb-5.text-center Pérdida de la integridad de los datos
+    .h6.mb-5.text-center Pérdida de la integridad de los datos
     .row.mb-5.justify-content-center
       .col-lg-6
         figure
