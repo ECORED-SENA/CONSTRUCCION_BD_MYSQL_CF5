@@ -19,7 +19,7 @@
     p.mb-5 Establece que una columna tenga un valor Not Null. Se define efectuando la declaración de una columna es Not null cuando la tabla que contiene las columnas se crea por primera vez, como parte de la sentencia Create table.
 
     .h6.mb-4.text-center Configuración propiedad NOT NULL
-    .row.mb-5.justify-content-center
+    .row.justify-content-center(style="margin-bottom: 120px;")
       .col-lg-10 
         figure
           img(src="@/assets/curso/tema2/img2.svg", alt="Configuración propiedad NOT NULL")
@@ -40,7 +40,7 @@
     
     .h6.mb-4.text-center Configuración tipos de datos
 
-    .row.mb-5.justify-content-center
+    .row.justify-content-center(style="margin-bottom: 120px;")
       .col-lg-10 
         figure
           img(src="@/assets/curso/tema2/img4.svg", alt="Configuración tipos de datos")
