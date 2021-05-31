@@ -36,7 +36,7 @@
       .col-lg-9.align-self-center
         p.mb-4 El tipo de dato seleccionado en el diseño es de suma importancia ya que este define los datos que serán recibidos y almacenados; esto determina la capacidad, el tamaño y las restricciones al momento de realizar las operaciones de Insert, Update.
     
-    p.mb-4 #[strong Ejemplo:] para la tabla Producto, se define un atributo llamado stock el cual define un campo de tipo entero, esto significa que, al momento de insertar algún registro, no se permitirá ingresar valores decimales como 25,5 computadores ya que se generaría un error en su validez.
+    p.mb-4 #[strong Ejemplo:] para la tabla producto, se define un atributo llamado stock el cual define un campo de tipo entero, esto significa que, al momento de insertar algún registro, no se permitirá ingresar valores decimales como 25,5 computadores ya que se generaría un error en su validez.
     
     .h6.mb-4.text-center Configuración tipos de datos
 
