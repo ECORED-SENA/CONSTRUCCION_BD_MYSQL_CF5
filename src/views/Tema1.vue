@@ -11,7 +11,7 @@
     figure.mb-5
       .video
         iframe(width="969" height="545" src="https://www.youtube.com/embed/SLPqBj9XjWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Pruebas de integridad de datos
+      
     
   
 </template>
